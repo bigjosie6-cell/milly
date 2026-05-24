@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trade With Milly | Crypto Portfolio Management</title>
+  <meta name="description" content="Professional crypto portfolio management, trading insights, and personalized support for digital asset investors.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ticker" aria-label="Live crypto ticker">
+    <div class="ticker-track">
+      <span data-symbol="bitcoin">BTC <strong>Loading</strong> <em>--</em></span>
+      <span data-symbol="ethereum">ETH <strong>Loading</strong> <em>--</em></span>
+      <span data-symbol="solana">SOL <strong>Loading</strong> <em>--</em></span>
+      <span data-symbol="binancecoin">BNB <strong>Loading</strong> <em>--</em></span>
+      <span data-symbol="ripple">XRP <strong>Loading</strong> <em>--</em></span>
+      <span data-symbol="cardano">ADA <strong>Loading</strong> <em>--</em></span>
+      <span data-symbol="bitcoin">BTC <strong>Loading</strong> <em>--</em></span>
+      <span data-symbol="ethereum">ETH <strong>Loading</strong> <em>--</em></span>
+      <span data-symbol="solana">SOL <strong>Loading</strong> <em>--</em></span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Trade With Milly home">
+      <span class="brand-mark">M</span>
+      <span>Trade With Milly</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#results">Results</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Toggle light mode">
+      <span class="toggle-track"><i class="toggle-thumb"></i></span>
+      <strong>Dark</strong>
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <canvas id="marketCanvas" class="market-canvas" aria-hidden="true"></canvas>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Elite crypto portfolio strategy</p>
+        <h1>Grow Your Crypto Portfolio With Confidence</h1>
+        <p class="hero-subtitle">Professional crypto portfolio management, strategic trading insights, and personalized support designed to help investors maximize opportunities in the digital asset market.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary magnetic" href="support.html">Start Trading With Milly</a>
+          <a class="btn btn-secondary magnetic" href="https://wa.me/2348110244905" data-whatsapp-link>Chat on WhatsApp</a>
+        </div>
+        <div class="trust-row" aria-label="Trust highlights">
+          <span>Secure strategy reviews</span>
+          <span>Risk-first planning</span>
+          <span>Personal support</span>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="coin coin-btc">BTC</div>
+        <div class="coin coin-eth">ETH</div>
+        <div class="coin coin-sol">SOL</div>
+        <div class="dashboard-card">
+          <div class="dash-top">
+            <div><span>Portfolio Value</span><strong>$248,920.44</strong></div>
+            <em>+18.7%</em>
+          </div>
+          <div class="chart-shell"><canvas id="heroChart" width="620" height="300"></canvas></div>
+          <div class="metric-grid">
+            <div><span>BTC</span><strong>42%</strong></div>
+            <div><span>ETH</span><strong>31%</strong></div>
+            <div><span>SOL</span><strong>14%</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section split-section">
+      <div class="portrait-card reveal">
+        <div class="portrait"><span>MW</span></div>
+      </div>
+      <div class="section-copy reveal">
+        <p class="eyebrow">Who Is Milly?</p>
+        <h2>Disciplined crypto guidance for ambitious investors.</h2>
+        <p>Milly is a passionate crypto portfolio manager and trader who started trading digital assets during the early rise of cryptocurrency markets. After years of studying market trends, technical analysis, and risk management strategies, Milly began helping everyday investors navigate the fast-moving crypto space with confidence.</p>
+        <p>Today, Trade With Milly focuses on smart portfolio management, disciplined trading strategies, and personalized client support to help traders build long-term growth while minimizing emotional decision-making.</p>
+        <div class="stats">
+          <div><strong data-count="7">0</strong><span>Years of experience</span></div>
+          <div><strong data-count="320">0</strong><span>Successful portfolio strategies</span></div>
+          <div><strong data-count="180">0</strong><span>Active traders supported</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="timeline-section section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Trading journey</p>
+        <h2>Built through market cycles, research, and real client support.</h2>
+      </div>
+      <div class="timeline reveal">
+        <article><span>01</span><h3>Market Study</h3><p>Technical analysis, trend structure, and digital asset research.</p></article>
+        <article><span>02</span><h3>Strategy Building</h3><p>Portfolio frameworks designed around risk tolerance and time horizon.</p></article>
+        <article><span>03</span><h3>Client Guidance</h3><p>Clear communication, trade planning, and calm decision support.</p></article>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Premium services</p>
+        <h2>Every tool you need to trade with structure.</h2>
+      </div>
+      <div class="service-grid">
+        <article class="service-card reveal"><span>01</span><h3>Crypto Portfolio Management</h3><p>Allocation planning, portfolio reviews, and opportunity mapping.</p></article>
+        <article class="service-card reveal"><span>02</span><h3>Risk Management Strategies</h3><p>Position sizing, drawdown controls, and trade invalidation plans.</p></article>
+        <article class="service-card reveal"><span>03</span><h3>Market Analysis & Signals</h3><p>Clear market context, levels, momentum, and tactical setups.</p></article>
+        <article class="service-card reveal"><span>04</span><h3>One-on-One Trading Guidance</h3><p>Personal sessions for goals, strategy, and decision discipline.</p></article>
+        <article class="service-card reveal"><span>05</span><h3>Long-Term Investment Planning</h3><p>Cycle-aware accumulation plans for serious digital asset investors.</p></article>
+        <article class="service-card reveal"><span>06</span><h3>Daily Crypto Insights</h3><p>Actionable updates to help you stay informed without noise.</p></article>
+      </div>
+    </section>
+
+    <section id="results" class="section split-section alt">
+      <div class="section-copy reveal">
+        <p class="eyebrow">Why choose Trade With Milly</p>
+        <h2>Premium support with a risk-first mindset.</h2>
+        <div class="feature-list">
+          <span>Transparent communication</span>
+          <span>Personalized trading strategies</span>
+          <span>Market research driven decisions</span>
+          <span>Portfolio diversification methods</span>
+          <span>Fast response support</span>
+          <span>Beginner-friendly guidance</span>
+        </div>
+      </div>
+      <div class="analytics-panel reveal">
+        <div class="panel-header"><strong>Growth Model</strong><em>Protected upside</em></div>
+        <div class="bars">
+          <span style="--h:42%"></span><span style="--h:66%"></span><span style="--h:54%"></span><span style="--h:78%"></span><span style="--h:88%"></span><span style="--h:72%"></span>
+        </div>
+        <div class="allocation">
+          <div><span></span> Core holdings</div>
+          <div><span></span> Swing trades</div>
+          <div><span></span> Stable reserves</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Client confidence</p>
+        <h2>Trusted by investors who value clarity.</h2>
+      </div>
+      <div class="testimonial-grid">
+        <article class="testimonial-card reveal"><div class="stars">★★★★★</div><p>“Trade With Milly completely changed the way I approach crypto investing. The portfolio guidance helped me become more disciplined and confident in my trades.”</p><strong>Daniel R.</strong></article>
+        <article class="testimonial-card reveal"><div class="stars">★★★★★</div><p>“I appreciate the professionalism and market knowledge. Communication was smooth and the strategies were easy to understand.”</p><strong>Sarah K.</strong></article>
+        <article class="testimonial-card reveal"><div class="stars">★★★★★</div><p>“Excellent portfolio support and risk management advice. Highly recommended for both beginners and experienced traders.”</p><strong>Michael T.</strong></article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-copy reveal">
+        <p class="eyebrow">Ready To Trade Smarter?</p>
+        <h2>Connect directly with Milly on WhatsApp.</h2>
+        <p>Connect directly with Milly on WhatsApp to discuss your crypto trading goals, portfolio management options, and personalized support.</p>
+        <a class="whatsapp-pulse magnetic" href="https://wa.me/2348110244905" data-whatsapp-link>Message Milly on WhatsApp</a>
+      </div>
+      <form class="contact-form reveal">
+        <label>Name<input type="text" name="name" placeholder="Your name"></label>
+        <label>Email<input type="email" name="email" placeholder="you@example.com"></label>
+        <label>Trading Experience<select name="experience"><option>Beginner</option><option>Intermediate</option><option>Advanced</option></select></label>
+        <label>Investment Goals<textarea name="goals" placeholder="Tell Milly what you want to achieve"></textarea></label>
+        <button class="btn btn-primary magnetic" type="button" data-support-submit>Message Milly on WhatsApp</button>
+      </form>
+    </section>
+
+    <section class="section faq-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">FAQ</p>
+        <h2>Answers before your first consultation.</h2>
+      </div>
+      <div class="faq-list reveal">
+        <details><summary>How does portfolio management work?</summary><p>Milly reviews your goals, risk tolerance, current holdings, and time horizon, then creates a structured approach for allocation, reviews, and decision-making.</p></details>
+        <details><summary>Is crypto trading risky?</summary><p>Yes. Crypto markets can be highly volatile, so every strategy should include risk controls, position sizing, and realistic expectations.</p></details>
+        <details><summary>Do you work with beginners?</summary><p>Yes. Guidance can be tailored for beginners who need simple explanations and step-by-step support.</p></details>
+        <details><summary>What cryptocurrencies do you focus on?</summary><p>Focus areas include major assets like Bitcoin, Ethereum, Solana, and selected high-quality altcoin opportunities based on market conditions.</p></details>
+        <details><summary>How do I get started?</summary><p>Use the contact form or WhatsApp button to share your goals and schedule an initial portfolio discussion.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <button class="chatbot magnetic" type="button" aria-label="Open AI chatbot assistant"><span>AI</span></button>
+  <div class="chat-window" aria-live="polite">
+    <div class="chat-header">
+      <span class="support-dot"></span>
+      <div>
+        <strong>Milly Support AI</strong>
+        <small>Online customer support</small>
+      </div>
+    </div>
+    <div class="chat-messages">
+      <p class="bot-message">Hi, I am Milly's support assistant. I can help with portfolio guidance, beginner questions, risk planning, or connecting you to customer support.</p>
+    </div>
+    <div class="quick-replies">
+      <button type="button" data-reply="I am a beginner">Beginner help</button>
+      <button type="button" data-reply="I need portfolio support">Portfolio support</button>
+      <button type="button" data-reply="Connect me to customer support">Customer support</button>
+    </div>
+    <form class="chat-form">
+      <input type="text" placeholder="Ask about trading support" aria-label="Ask support assistant">
+      <button type="submit">Send</button>
+    </form>
+    <a class="support-link" href="support.html">Open customer support page</a>
+  </div>
+
+  <footer class="footer">
+    <div class="brand"><span class="brand-mark">M</span><span>Trade With Milly</span></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="https://wa.me/2348110244905" data-whatsapp-link>WhatsApp</a>
+      <a href="#top">Back to top</a>
+    </nav>
+    <form class="newsletter">
+      <input type="email" placeholder="Email for market notes" aria-label="Email for newsletter">
+      <button class="magnetic" type="button" data-newsletter>Join</button>
+    </form>
+    <div class="socials" aria-label="Social links">
+      <a class="magnetic social-instagram" href="https://www.instagram.com/milly_01_/" aria-label="Instagram" data-social="instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="5"></rect><circle cx="12" cy="12" r="3.5"></circle><circle cx="17" cy="7" r="1"></circle></svg></a>
+      <a class="magnetic social-x" href="social.html?platform=x" aria-label="X" data-social="x"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"></path></svg></a>
+      <a class="magnetic social-telegram" href="https://t.me/Bigmilly01" aria-label="Telegram" data-social="telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 4L3 11.5l7 2.2L13 20l3-14-6 7"></path></svg></a>
+    </div>
+    <p class="disclaimer">Cryptocurrency trading involves risk and past performance does not guarantee future results.</p>
+    <p class="copyright">© 2026 Trade With Milly. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
