@@ -1,10 +1,10 @@
 const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const socialLinks = {
-  instagram: "https://www.instagram.com/milly_01_/",
+  instagram: "https://www.instagram.com/mcex.ng",
   x: "",
   telegram: "https://t.me/Bigmilly01"
 };
-const whatsappLink = "https://wa.me/2348110244905";
+const whatsappLink = "https://wa.me/2347077719341";
 
 document.querySelectorAll("[data-social]").forEach((link) => {
   const platform = link.dataset.social;
@@ -97,7 +97,7 @@ document.querySelector("[data-support-submit]")?.addEventListener("click", () =>
   const name = form?.querySelector("[name='name']")?.value.trim();
   const experience = form?.querySelector("[name='experience']")?.value;
   const query = new URLSearchParams({ name: name || "Guest", experience: experience || "Beginner" });
-  window.location.href = `https://wa.me/2348110244905?text=${encodeURIComponent(`Hello Milly, my name is ${name || "Guest"}. I am a ${experience || "Beginner"} trader and I want crypto portfolio support.`)}`;
+  window.location.href = `${whatsappLink}?text=${encodeURIComponent(`Hello Milly, my name is ${name || "Guest"}. I am a ${experience || "Beginner"} trader and I want crypto portfolio support.`)}`;
 });
 
 document.querySelector("[data-support-request]")?.addEventListener("click", () => {
